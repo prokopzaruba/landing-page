@@ -1,0 +1,378 @@
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+- Weights: 400, 600, 700
+
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
+
+### Neutral
+
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Pale Blue: hsl(207, 100%, 98%)
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  margin: 0 auto;
+  max-width: 144rem;
+  text-align: center;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(192, 100%, 9%);
+}
+
+.page-section,
+.info-subsection {
+  margin-bottom: 9.6rem;
+}
+
+.navbar {
+  margin: 6.4rem 4.8rem 22rem 4.8rem;
+  display: flex;
+  align-items: center;
+}
+.try-it-free {
+  font-size: 1.8rem;
+  min-width: 14.6rem;
+  padding: 1.2rem 3.2rem;
+  margin-left: auto;
+  border: 2px solid hsl(322, 100%, 66%);
+  border-radius: 10rem;
+  color: hsl(322, 100%, 66%);
+  background-color: white;
+}
+
+.heading-primary,
+.heading-secondary {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.6rem;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+}
+
+.button-heading {
+  margin-bottom: 3.2rem;
+}
+
+.heading-terciary {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+
+.hero-description {
+  margin: 0 auto;
+  margin-bottom: 4.8rem;
+  font-size: 2.2rem;
+  max-width: 68rem;
+}
+
+.description {
+  font-size: 1.8rem;
+  max-width: 56rem;
+}
+
+.get-started-for-free {
+  min-width: 36.8rem;
+  margin-bottom: 9.6rem;
+  padding: 2.4rem 9.6rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10rem;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+
+.hero-image {
+  max-width: 80%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.stats-number {
+  font-size: 9.8rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.stats-icon {
+  display: block;
+}
+
+.stats-description {
+  color: hsl(192, 100%, 9%, 0.6);
+}
+
+.info-box {
+  display: flex;
+  text-align: left;
+  padding: 4.8rem 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info-box-blue {
+  background-color: #f6fbff;
+}
+
+.background-animation {
+  display: block;
+  width: 100%;
+}
+
+.top-animation {
+  margin-bottom: -2px;
+}
+
+.bottom-animation {
+  margin-top: -2px;
+}
+
+.info-text,
+.info-image {
+  width: 40%;
+}
+
+.illustration {
+  width: 100%;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-align: left;
+  padding: 12.8rem 9.6rem;
+  background-color: hsl(192, 100%, 9%);
+}
+
+.footer-part {
+  width: 40%;
+}
+
+.footer-text {
+  font-size: 1.4rem;
+  max-width: 34rem;
+}
+
+.contact-text {
+  margin-bottom: 1.6rem;
+}
+
+.newsletter-text {
+  margin-bottom: 2.4rem;
+}
+
+.footer-logo {
+  margin-bottom: 1.6rem;
+}
+
+.contact {
+  display: flex;
+  margin-bottom: 1.6rem;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.contact-detail {
+  font-size: 1.6rem;
+}
+
+.email {
+  margin-bottom: 8rem;
+}
+
+.socials {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.socials-icon {
+  height: 3.6rem;
+  width: 3.6rem;
+}
+
+.facebook:hover,
+.facebook:active {
+  color: #3b5998;
+}
+
+.instagram:hover,
+.instagram:active {
+  color: #d62976;
+}
+
+.twitter:hover,
+.twitter:active {
+  color: #1da1f2;
+}
+
+.email-input {
+  height: 4.4rem;
+  width: 30rem;
+  border-radius: 0.6rem;
+  margin-right: 3.6rem;
+  margin-bottom: 1.2rem;
+  padding-left: 1.2rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1.4rem;
+}
+
+.subscribe-button {
+  height: 4.4rem;
+  width: 15rem;
+  border-radius: 0.6rem;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.try-it-free:hover,
+.get-started-for-free:hover,
+.subscribe-button:hover,
+.socials-icon:hover,
+.try-it-free:active,
+.get-started-for-free:active,
+.subscribe-button:active,
+.socials-icon:active {
+  cursor: pointer;
+}
+
+.get-started-for-free:hover,
+.subscribe-button:hover,
+.get-started-for-free:active,
+.subscribe-button:active {
+  background-color: hsl(321, 100%, 78%);
+}
+
+.try-it-free:hover {
+  border-color: hsl(321, 100%, 78%);
+  color: hsl(321, 100%, 78%);
+}
+
+@media (max-width: 84em) {
+  html {
+    font-size: ;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .subscribe-button {
+    margin-right: 3.6rem;
+    margin-left: 15rem;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 44em) {
+  html {
+    font-size: 50%;
+  }
+
+  .logo,
+  .footer-logo {
+    height: 3.6rem;
+  }
+
+  .subscribe-button {
+    margin-right: 3.6rem;
+    margin-left: 15rem;
+  }
+}
+
+@media (max-width: 36em) {
+  .info-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-image {
+    order: -1;
+    margin-bottom: 8rem;
+  }
+
+  .info-text,
+  .info-image {
+    width: 80%;
+  }
+
+  .stats {
+    flex-direction: column;
+  }
+
+  .stat {
+    margin: 4.8rem auto;
+  }
+
+  .footer-box {
+    flex-direction: column;
+    align-items: center;
+    padding: 12.8rem auto;
+  }
+
+  .footer-part {
+    width: 50%;
+  }
+
+  .newsletter {
+    order: -1;
+  }
+
+  .subscribe-button {
+    margin-bottom: 9.6rem;
+  }
+}
+
+@media (max-width: 26em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .logo {
+    height: 2.4rem;
+  }
+
+  .footer-part {
+    width: 80%;
+  }
+}
